@@ -5,7 +5,7 @@ An exercise on JavaScript, Bootstrap, and UFOs
 
 The objective of the project was to create a website that displays a table with UFOs sightings in differnet parts of the United States and Canada.  The page contains a form to input and filter data.
 
-The website was created using HTML for the basic structure and Bootstrap to control the look of the site.
+The website was created using HTML for the basic structure and Bootstrap to control the look of the site.  There is also a `style.css` file that works in combination with Bootstrap to complete the decoration and feel of the website.
 
 The site shows a table with the data of the sightings.  The data comes from a file called  `data.js` that contains an array with the keys of the sightings (datetime, city, state, country, shape, durationMinutes and comments).  Here is an example of the array:
 
