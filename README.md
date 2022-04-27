@@ -206,7 +206,12 @@ function buildTable(data) {
 ```
 
 ### The `updateFilters` function
-This function 
+This function 'listens' to changes done to the HTML page and records using this line of code:
+```
+// 2. Attach an event to listen for changes to each filter
+d3.selectAll("input").on("change", updateFilters);
+```
+The IDs of the elements that were changed are saved into the variable 'filters'.  Then those IDs will be passed to the `filterTable` function used to filter the data of the table 
 ```
 // 1. Create a variable to keep track of all the filters as an object.
 var filters = {};
@@ -237,6 +242,30 @@ function updateFilters() {
 }
 ```
 ### The `filterTable` function
+This function takes the IDs of each of the values recorded in the `filters` variable and uses them to check each row of the table to validate if the row contains the values in the filters.  If so, the row is added to the 'refreshed' version of the table, else the row is ignored.  The part of the code that creates the filtered table is
+```
+  // 10. Finally, rebuild the table using the filtered data
+  buildTable(filteredData);
+```
 
+This is the complete code of the `filterTable` function
+```
+// 7. Use this function to filter the table when data is entered.
+function filterTable() {
+
+  // 8. Set the filtered data to the tableData.
+  let filteredData = tableData;
+
+  // 9. Loop through all of the filters and keep any data that
+  // matches the filter values
+  Object.entries(filters).forEach(([key, value]) => {
+    filteredData = filteredData.filter(row => row[key] === value);
+  });
+
+  // 10. Finally, rebuild the table using the filtered data
+  buildTable(filteredData);
+
+}
+```
 
 # :three: Summary
