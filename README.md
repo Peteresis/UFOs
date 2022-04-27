@@ -28,7 +28,7 @@ After the values of the form are entered, a Javascript file called `app.js` cont
 
 The two main files that control the website are `index.html` and `app.js`.  These files will be explained in detail as shown below:
 
-## `index.htm` File
+## `index.htm` File.  [The complete code of the file can be found here](https://github.com/Peteresis/UFOs/blob/9ee7249a47ac2c387fc3490e130e4ecf8b66d866/index.html)
 
 Following is the Storyboard of the page.
 
