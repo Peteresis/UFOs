@@ -272,11 +272,13 @@ function filterTable() {
 
 The final product of the combination of the HTML and Java Script files produces this page:
 
-## Unfiltered Version  ##### (Click on the image to zoom)
+## Unfiltered Version
+##### (Click on the image to zoom)
 
 <img src="https://user-images.githubusercontent.com/98360572/165642085-3c4b85ad-9a9f-4fdc-9aaf-da99a9750ffb.png" width=50% height=50%>
 
-## Filtered Version  ##### (Click on the image to zoom)
+## Filtered Version
+##### (Click on the image to zoom)
 
 <img src="https://user-images.githubusercontent.com/98360572/165642632-069a70e8-8124-46c8-8959-009715aa65d6.png" width=50% height=50%>
 
