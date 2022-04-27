@@ -206,7 +206,7 @@ function buildTable(data) {
 ```
 
 ### The `updateFilters` function
-This function 'listens' to changes done to the HTML page and records using this line of code:
+This function 'listens' to changes done to the HTML page and records each change using this line of code:
 ```
 // 2. Attach an event to listen for changes to each filter
 d3.selectAll("input").on("change", updateFilters);
@@ -269,3 +269,18 @@ function filterTable() {
 ```
 
 # :three: Summary
+
+The final product of the combination of the HTM and Java Script files produces this page:
+
+## Unfiltered Version
+
+
+## Filtered Version
+
+
+
+# :four: References
+
+
+
+
