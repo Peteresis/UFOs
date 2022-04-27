@@ -7,6 +7,10 @@ bin-release/
 # Other files and folders
 .settings/
 
+index - original.html
+old_app.js
+ufo_starterCode - Copy.js
+
 # Executables
 *.swf
 *.air
