@@ -171,7 +171,7 @@ The code for each part is shown below:
 <script src="static/js/app.js"></script>
 ```
 
-## `app.js` File
+## `app.js` File.  [Click here for the complete code of this file](https://github.com/Peteresis/UFOs/blob/09fd29a955358c362800db133666d4b8bfe8cb0b/static/js/app.js) 
 
 This file is the brain behind the dynamic table
 
