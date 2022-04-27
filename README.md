@@ -171,5 +171,8 @@ The code for each part is shown below:
 <script src="static/js/app.js"></script>
 ```
 
+## `app.js` File
+
+This file is the brain behind the dynamic table
 
 # :three: Summary
