@@ -31,10 +31,11 @@ The two main files that control the website are `index.html` and `app.js`.  Thes
 ## `index.htm` File.  [The complete code of the file can be found here](https://github.com/Peteresis/UFOs/blob/9ee7249a47ac2c387fc3490e130e4ecf8b66d866/index.html)
 
 Following is the Storyboard of the page.
+##### (Click on the image to zoom)
 
-![data-11-2-4-2-storyboard-of-the-website-with-components-neatly-organized](https://user-images.githubusercontent.com/98360572/165630723-20f72e15-db2e-4e31-88c1-68389514fcf0.png)
+<img src="https://user-images.githubusercontent.com/98360572/165630723-20f72e15-db2e-4e31-88c1-68389514fcf0.png" width=50% height=50%>
 
-The code for each part is shown below:
+The code to create each part is shown below:
 
 ### Initial Dependencies
 ```
