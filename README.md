@@ -175,11 +175,67 @@ The code for each part is shown below:
 
 This file is the brain behind the dynamic table.  It has several parts, but the most important are the three functions that do the heavy lifting to modify the dynamic table.
 
-### The `buildTable` function
+The file reads the data array from `data.js` using the following line:
+```
+// from data.js
+const tableData = data;
+```
 
+### The `buildTable` function
+This function uses the `data` variable and populates the rows of the HTML table with the unfiltered data from `data.js`. 
+
+```
+function buildTable(data) {
+  // First, clear out any existing data
+  tbody.html("");
+
+  // Next, loop through each object in the data
+  // and append a row and cells for each value in the row
+  data.forEach((dataRow) => {
+    // Append a row to the table body
+    let row = tbody.append("tr");
+
+    // Loop through each field in the dataRow and add
+    // each value as a table cell (td)
+    Object.values(dataRow).forEach((val) => {
+      let cell = row.append("td");
+      cell.text(val);
+    });
+  });
+}
+```
 
 ### The `updateFilters` function
+This function 
+```
+// 1. Create a variable to keep track of all the filters as an object.
+var filters = {};
 
+// 3. Use this function to update the filters. 
+function updateFilters() {
+
+  // 4a. Save the element that was changed as a variable.
+  let element = d3.select(this);
+  // 4b. Save the value that was changed as a variable.
+  let elementValue = element.property("value");
+  // 4c. Save the id of the filter that was changed as a variable.
+  let elementId = element.attr("id");
+
+  // 5. If a filter value was entered then add that filterId and value
+  // to the filters list. Otherwise, clear that filter from the filters object.
+  if (elementValue) {
+    filters[elementId] = elementValue;
+  }
+  else {
+    delete filters[elementId];
+  }
+  // Display the filters list on the console.
+  console.log(filters);
+  // 6. Call function to apply all filters and rebuild the table
+  filterTable();
+
+}
+```
 ### The `filterTable` function
 
 
