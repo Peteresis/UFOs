@@ -274,6 +274,7 @@ The final product of the combination of the HTM and Java Script files produces t
 
 ## Unfiltered Version
 
+![Unfiltered](https://user-images.githubusercontent.com/98360572/165642085-3c4b85ad-9a9f-4fdc-9aaf-da99a9750ffb.png)
 
 ## Filtered Version
 
