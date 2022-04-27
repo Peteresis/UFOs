@@ -270,19 +270,27 @@ function filterTable() {
 
 # :three: Summary
 
-The final product of the combination of the HTM and Java Script files produces this page:
+The final product of the combination of the HTML and Java Script files produces this page:
 
 ## Unfiltered Version
 
-![Unfiltered](https://user-images.githubusercontent.com/98360572/165642085-3c4b85ad-9a9f-4fdc-9aaf-da99a9750ffb.png)
+<img src="https://user-images.githubusercontent.com/98360572/165642085-3c4b85ad-9a9f-4fdc-9aaf-da99a9750ffb.png" width=50% height=50%>
 
 ## Filtered Version
 
-![filtered](https://user-images.githubusercontent.com/98360572/165642632-069a70e8-8124-46c8-8959-009715aa65d6.png)
-
+<img src="https://user-images.githubusercontent.com/98360572/165642632-069a70e8-8124-46c8-8959-009715aa65d6.png" width=50% height=50%>
 
 # :four: References
 
+**Module 11: Creating Dynamic Content**, https://courses.bootcampspot.com/courses/1145/pages/11-dot-0-1-creating-dynamic-content, :copyright: 2020-2021 Trilogy Education Services, Web 15 Apr 2022.
+
+**An overview of Bootstrap Table, how to download and use, basic templates, and more.**, https://bootstrap-table.com/docs/getting-started/introduction/
+
+**Excel Like Filter**, https://technogeeksfdc.wordpress.com/2021/05/17/excel-like-filter/
+
+**Excel-like Bootstrap Table Sorting And Filtering Plugin**, https://www.jqueryscript.net/table/Excel-like-Bootstrap-Table-Sorting-Filtering-Plugin.html
+
+**Excel like Filter in HTML table**, https://embed.plnkr.co/plunk/w4z9A4
 
 
 
