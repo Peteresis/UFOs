@@ -9,11 +9,3 @@ body {
     text-align: center;
 }
 
-label {
-    display: block;
-    width: 1300px;
-  }
-
-  .list-group-item {
-    width: 2000px;
-}
