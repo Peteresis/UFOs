@@ -22,10 +22,11 @@
     </div>
     <div class="container-fluid">
         <div class="row">
-            <div class="col-md-4">
-                <h3>UFO Sightings: Fact or Fancy? <small>Ufologists Weigh In</small></h3>
+            <div class="col-md-3">
+                <div><h3>UFO Sightings: Fact or Fancy?</h3></div>
+                <div><h3><small>Ufologists Weigh In</small></h3></div>
             </div>
-            <div class="col-md-8">
+            <div class="col-md-9">
                 <p>Are we alone in the universe? For millennia, humans have turned to the sky to answer this question.
                     Now, thanks to research generously funded by W. Avy, a UFO-enthusiast and amateur ufologist, we can
                     supplement our sky-searching with data analysis.
@@ -53,13 +54,42 @@
             <div class="col-md-3">
                 <form class="bg-dark">
                     <p>Filter Search</p>
+                    <!-- Date Filter Field -->
                     <li class="list-group-item bg-dark">
                         <label for="date">Enter Date</label>
                     </li>
                     <li class="list-group-item bg-dark">
                         <input type="text" placeholder="1/10/2010" id="datetime" />
                     </li>
-                    <button id="filter-btn" type="button" class="btn btn-dark">Filter Table</button>
+                    <!-- City Filter Field -->
+                    <li class="list-group-item bg-dark">
+                        <label for="city">Enter City</label>
+                    </li>
+                    <li class="list-group-item bg-dark">
+                        <input type="text" id="city" />
+                    </li>
+                    <!-- State Filter Field -->
+                    <li class="list-group-item bg-dark">
+                        <label for="state">Enter State</label>
+                    </li>
+                    <li class="list-group-item bg-dark">
+                        <input type="text" id="state" />
+                    </li>
+                    <!-- Country Filter Field -->
+                    <li class="list-group-item bg-dark">
+                        <label for="country">Enter Country</label>
+                    </li>
+                    <li class="list-group-item bg-dark">
+                        <input type="text" id="country" />
+                    </li>
+                    <!-- Shape Filter Field -->
+                    <li class="list-group-item bg-dark">
+                        <label for="shape">Enter Shape</label>
+                    </li>
+                    <li class="list-group-item bg-dark">
+                        <input type="text" id="shape" />
+                    </li>
+                    <!-- <button id="filter-btn" type="button" class="btn btn-dark">Filter Table</button> -->
                 </form>
             </div>
             <div class="col-md-9">
