@@ -212,7 +212,7 @@ This function 'listens' to changes done to the HTML page and records each change
 // 2. Attach an event to listen for changes to each filter
 d3.selectAll("input").on("change", updateFilters);
 ```
-The IDs of the elements that were changed are saved into the variable 'filters'.  Then those IDs will be passed to the `filterTable` function used to filter the data of the table 
+The IDs of the elements that were changed are saved into the variable `filters`.  Then those IDs will be passed to the `filterTable` function used to filter the data of the table 
 ```
 // 1. Create a variable to keep track of all the filters as an object.
 var filters = {};
