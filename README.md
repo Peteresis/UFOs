@@ -3,7 +3,7 @@ An exercise on JavaScript, Bootstrap, and UFOs
 
 # :one: Overview of the Project
 
-The objective of the project was to create a website that displays a dynamic table with UFOs sightings in differnet parts of the United States and Canada.  The page contains a form to input and filter data.
+The objective of the project was to create a website that displays a dynamic table with UFOs sightings in different parts of the United States and Canada.  The page contains a form to input and filter data.
 
 The website was created using HTML for the basic structure and Bootstrap to control the look of the site.  There is also a `style.css` file that works in combination with Bootstrap to complete the decoration and feel of the website.
 
