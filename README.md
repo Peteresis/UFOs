@@ -174,7 +174,7 @@ The code to create each part is shown below:
 
 ## `app.js` File.  [Click here for the complete code of this file](https://github.com/Peteresis/UFOs/blob/09fd29a955358c362800db133666d4b8bfe8cb0b/static/js/app.js) 
 
-This file is the brain behind the dynamic table.  It has several parts, but the most important are the three functions that do the heavy lifting to modify the dynamic table.
+This file is the brain behind the dynamic table.  It has several parts, but the most important are the three functions that do the heavy lifting to modify the table dynamically based on the user inputs.
 
 The file reads the data array from `data.js` using the following line:
 ```
