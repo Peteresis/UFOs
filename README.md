@@ -59,7 +59,7 @@ The code to create each part is shown below:
     </div>
 ```
 
-### Page Header
+### Page Header - Using Bootstrap
 ```
 <div class="jumbotron">
         <h1 class="display-4">The Truth is Out There</h1>
